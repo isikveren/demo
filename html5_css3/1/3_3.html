@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-CN"">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>好好学习天天学习</title>
+</head>
+<script> 
+    (function(){
+        var headerTop=$(".header").height();
+        $(window).scroll(function(){
+            //头部跟着滚动
+            if($(window).scrollTop()>=headerTop)
+            {
+                $(".header").addClass("fixed");
+
+            }else
+            {
+                $(".header").removeClass("fixed");
+            }
+            var gotop = $("body").scrollTop() || $(document).scrollTop();
+            if(gotop > 400){
+                //var hid = $(document).width()/2+550;
+                $('.goTop').removeClass('hide');
+                $('.goTop').css({
+                    'position':'fixed',
+                    'left':'90%',
+                    'top':'70%'
+                });
+
+        } else {
+            $('.goTop').addClass('hide');
+        }
+    });
+})();
+</script>
+<body>
+    <header role="banner">
+    <h1>Product User Guide</h1>
+    <a href="http://www.liuxunzi.com">MY BLOG</a></header>
+    
+    <h2>Setting it up</h2>
+    <h2>Basic Features</h2>
+     <h3>Video Playback</h3>
+     <h4>Basic Controls</h4>
+     <h4>Jumping to Markers</h4>
+     <h3>Recording Video</h3>
+     <h4>Manual Recording</h4>
+     <h4>Scheduling a Recording</h4>
+    <h2>Advanced Features</h2>
+     <h3>Sharing Video</h3>
+     <h3>Compressing Video</h3>
+    </body>
+    </html>

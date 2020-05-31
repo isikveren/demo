@@ -1,0 +1,17 @@
+body {
+    font-family: Georgia, "Times New Roman",
+   ➝ serif;
+   }
+   /* 站点导航 */
+   .nav-main {
+   list-style: none;
+   padding: .45em 0 .5em;
+   }
+   .nav-main li {
+   border-left: 1px solid #c8c8c8;
+   }
+   .nav-main a {
+   color: #292929;
+   font-size: 1.125em;
+   font-weight: bold;
+   }

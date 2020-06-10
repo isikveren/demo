@@ -5,4 +5,4 @@ message3 = message1.title() + "\n" +message2.upper().lower()
 print(message3)
 print("\t"+message3)
 
-print("language:\n\tC\n\tjavascript\n\tpython".title())
+print("language:\n\tC\n\tjavascript\n\tpython".title()

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>阴阳师</title>
+    <style>
+        body{
+            background-image: url("img_1085.jpg");
+        }
+        .rolelist{
+            width:1290px;
+            height:460px;
+            background-color: #e6ce80;
+            margin: 100px auto;
+
+        }
+        .role{
+            float:left;
+            width:418px;
+            height:210px;
+            background-color: rgb(195, 136, 218);
+            margin: 10px 6px;
+            background-image: url("img_1085.jpg");
+            /* background-position: 15px;  */
+            background-size: 500px;
+            cursor: pointer;
+            transition: 1s;
+        }
+        .role:hover{
+            background-position: 10px;
+
+        } 
+       
+        polyline{
+            stroke:black;
+            fill: none;
+        }
+    </style>
+</head>
+<body>
+    <div class = "rolelist">
+        <div class="role"></div>
+            <svg>  
+                <polyline pionts="10,10 410,10 410,200 10,200"></polyline>
+            </svg>
+        <div class="role"></div>
+        <div class="role"></div>
+        <div class="role"></div>
+        <div class="role"></div>
+        <div class="role"></div>
+    </div>
+        
+
+</body>
+</html>

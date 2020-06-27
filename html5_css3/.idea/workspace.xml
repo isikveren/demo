@@ -19,13 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14d03449-463b-4f8c-83af-b8674c6fa142" name="Default Changelist" comment="6_10">
-      <change afterPath="$PROJECT_DIR$/test/test1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/myClass/out/production/myClass/com/ArrayList/ArrayListDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../java/myClass/out/production/myClass/com/ArrayList/ArrayListDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/myClass/src/com/ArrayList/ArrayListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/myClass/src/com/ArrayList/ArrayListDemo.java" afterDir="false" />
-    </list>
+    <list default="true" id="14d03449-463b-4f8c-83af-b8674c6fa142" name="Default Changelist" comment="6_10" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,7 +80,7 @@
       <updated>1591766853317</updated>
       <workItem from="1591766858064" duration="519000" />
       <workItem from="1592026388586" duration="289000" />
-      <workItem from="1592561297161" duration="1298000" />
+      <workItem from="1592561297161" duration="1391000" />
     </task>
     <task id="LOCAL-00001" summary="6_10">
       <created>1591767300776</created>
